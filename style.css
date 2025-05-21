@@ -158,6 +158,10 @@ body{
     width: 25%;
 }
 
+.w15{
+    width: 15%;
+}
+
 .w20 {
     width: 20%;
 }
@@ -200,7 +204,7 @@ body{
  }
 
  h3{
-    color: rgb(167, 144, 11);
+    color: rgba(90, 8, 122, 0.726);
     font-family: "Playwrite DK Loopet", cursive;
     font-size: 20px;
  }
@@ -218,10 +222,11 @@ body{
 
  .header{
     background-color:  rgba(211, 184, 168, 0.479);
+    padding: 16px;
  }
 
  .coleurHeader{
-    color: rgb(126, 109, 11);
+    color: rgb(90, 8, 122, 0.726);
  }
 
 /* Section Acceuil */
@@ -234,12 +239,11 @@ body{
 }
 
 .btm{
+    background-color: rgb(198, 125, 207);
     width: 30%;
     padding: 10px;
-    border-radius: 16px;
-    color: rgb(167, 144, 11);
-    border: solid 3px rgb(126, 109, 11);
-    backdrop-filter: blur(6px);
+    border-radius: 40px;
+    color: rgb(139, 29, 153);
     font-size: 20px;
     display: block;
     font-family: "Playwrite DK Loopet", cursive;
@@ -266,11 +270,11 @@ body{
 }
 
 .btmAcheter{
-    border: solid 3px rgb(126, 109, 11);
+    background-color: rgb(198, 125, 207);
     padding: 10px;
     font-size: 15px;
-    border-radius: 15px;
-    color: rgb(167, 144, 11);
+    border-radius: 30px;
+    color: rgb(139, 29, 153);
     display: inline-block;
     font-family: "Playwrite DK Loopet", cursive;
 }
