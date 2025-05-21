@@ -193,6 +193,7 @@
     border: solid 3px rgb(126, 109, 11);
     backdrop-filter: blur(6px);
     font-size: 40px;
+    display: block;
 }
 
 /* Section 2 */
