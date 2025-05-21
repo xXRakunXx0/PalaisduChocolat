@@ -1,0 +1,218 @@
+/* Réinitialise le box model pour tous les éléments, 
+   et supprime les marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Background color */
+
+.bgcRed {
+    background-color: red;
+}
+
+/* ------ Flex ------ */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+/* MARGIN/PADDING */
+
+
+.marginAuto{
+    margin: auto;
+}
+
+.marginRight{
+    margin-right: 12px;
+}
+
+.marginLeft{
+    margin-left: 12px;
+}
+
+.marginBottom{
+    margin-top: 10px;
+}
+
+.top20 {
+    margin-top: 20px;
+}
+
+.top60 {
+    margin-top: 60px;
+}
+
+.top40{
+    margin-top: 40px;
+}
+
+.top100 {
+    margin-top: 100px;
+
+}
+
+.ptb64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.padding2 {
+    padding: 2px;
+}
+
+/* WIDTH */
+.w50 {
+    width: 50%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w5{
+    width: 5%;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/* Gap */
+.gap12{
+    gap: 12px;
+}
+
+ h1{
+    color: white;
+    font-size: 100px;
+ }
+
+
+ /* Header */
+
+ .header{
+    background-color:  rgb(158, 75, 7);
+ }
+
+
+/* Section 1 */
+.hero{
+    background-image: url(asset/chocola.jpg);
+     height: 87vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.btm{
+    width: 30%;
+    padding: 10px;
+    border-radius: 16px;
+    color: rgb(167, 144, 11);
+    border: solid 3px rgb(126, 109, 11);
+    backdrop-filter: blur(6px);
+    font-size: 40px;
+}
+
+/* Section 2 */
+
+.carte{
+    background-color: rgb(85, 85, 166);
+    border-radius: 15px;
+    padding: 12px;
+    width: 50%;
+    object-fit:cover
+}
+
+.imgCarte{
+    border-radius: 15px;
+}
+
+.btmAcheter{
+    border: solid 3px rgb(126, 109, 11);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: rgb(167, 144, 11);
+}

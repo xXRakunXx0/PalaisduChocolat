@@ -1,0 +1,66 @@
+{
+  "nomEntreprise": "Palais du Chocolat",
+  "slogan": "Le chocolat qui éveille vos papilles",
+  "bouton": "Devis gratuit",
+  "listeBeneficesClients": [
+    "Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin",
+    "Des saveurs uniques et originales, pour des sensations gustatives incomparables",
+    "Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands inoubliables",
+    "Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies"
+  ],
+  "produits": [
+    {
+      "titre": "Praliné croustillant",
+      "presentation": "Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable délice pour les amateurs de chocolat et de fruits secs.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/praline-croustillant.webp"
+    },
+    {
+      "titre": "Truffe au champagne",
+      "presentation": "Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une saveur subtile et délicate, idéale pour les fêtes et les célébrations.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/truffe-champagne.webp"
+    },
+    {
+      "titre": "Tablette de chocolat noir 70%",
+      "presentation": "Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs. Un grand classique de la chocolaterie, à déguster seul ou à utiliser en cuisine.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/tablette-chocolat-noir.webp"
+    },
+    {
+      "titre": "Coffret de chocolats assortis",
+      "presentation": "Un assortiment de chocolats fins, sélectionnés avec soin par nos chocolatiers. Un cadeau gourmand et raffiné, qui fera plaisir à coup sûr.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/coffret-chocolats-assortis.webp"
+    },
+    {
+      "titre": "Chocolat chaud",
+      "presentation": "Un chocolat chaud onctueux et réconfortant, à déguster en toute occasion.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/chocolat-chaud.webp"
+    },
+    {
+      "titre": "Mendiants",
+      "presentation": "Des chocolats aux fruits secs et fruits confits, pour une explosion de saveurs en bouche.",
+      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/mendiants.webp"
+    }
+  ],
+  "clients": [
+    {
+      "imgProfil":"https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "nom": "Sophie",
+      "typePrestation": "Coffret cadeau personnalisé",
+      "commentaire": "Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées et originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce cadeau parfait.",
+      "note": 5
+    },
+    {
+      "imgProfil":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "nom": "Antoine",
+      "typePrestation": "Mariage",
+      "commentaire": "Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde a adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.",
+      "note": 5
+    },
+    {
+      "imgProfil":"https://images.pexels.com/photos/6684836/pexels-photo-6684836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "nom": "Nicolas",
+      "typePrestation": "Achat en boutique",
+      "commentaire": "J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles.",
+      "note": 4
+    }
+  ]
+}
