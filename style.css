@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+
 /* Réinitialise le box model pour tous les éléments, 
    et supprime les marges et paddings par défaut */
 * {
@@ -7,7 +11,9 @@
     text-decoration: none;
     list-style: none;
 }
-
+body{
+    background-color:rgb(255, 250, 244);
+}
 /* Background color */
 
 .bgcRed {
@@ -43,7 +49,7 @@
 
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -55,6 +61,11 @@
     text-align: center;
 }
 
+.TextRight{
+    text-align: right;
+}
+
+
 
 /* MARGIN/PADDING */
 
@@ -63,12 +74,17 @@
     margin: auto;
 }
 
+
 .marginRight{
-    margin-right: 12px;
+    margin-right: 50px;
 }
 
 .marginLeft{
     margin-left: 12px;
+}
+
+.marginLeft50{
+    margin-left: 100px;
 }
 
 .marginBottom{
@@ -99,6 +115,10 @@
 
 .padding5 {
     padding: 5px;
+}
+
+.paddingTop{
+    padding-top: 10px;
 }
 
 .padding20 {
@@ -163,20 +183,48 @@
     gap: 12px;
 }
 
+.gap28{
+    gap: 28px;
+}
+
+/* Tout Les H1,2,3,4 And P*/
+
  h1{
     color: white;
     font-size: 100px;
+ }
+
+ h2{
+    color: rgb(105, 86, 65);
+    font-size: 40px;
+ }
+
+ h3{
+    color: rgb(167, 144, 11);
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 20px;
+ }
+
+ .para1{
+    font-size: 20px;
+ }
+
+  .para2{
+    font-size: 10px;
  }
 
 
  /* Header */
 
  .header{
-    background-color:  rgb(158, 75, 7);
+    background-color:  rgba(211, 184, 168, 0.479);
  }
 
+ .coleurHeader{
+    color: rgb(126, 109, 11);
+ }
 
-/* Section 1 */
+/* Section Acceuil */
 .hero{
     background-image: url(asset/chocola.jpg);
      height: 87vh;
@@ -192,18 +240,25 @@
     color: rgb(167, 144, 11);
     border: solid 3px rgb(126, 109, 11);
     backdrop-filter: blur(6px);
-    font-size: 40px;
+    font-size: 20px;
     display: block;
+    font-family: "Playwrite DK Loopet", cursive;
 }
 
-/* Section 2 */
+/* Section Nos Produits */
+
+.BandeMarront{ 
+    background-color: rgba(211, 184, 168, 0.479);
+    padding: 20px;
+}
 
 .carte{
-    background-color: rgb(85, 85, 166);
-    border-radius: 15px;
+    background-color: white;
+    border-radius: 15px;    
     padding: 12px;
-    width: 50%;
-    object-fit:cover
+    width: 30%;
+    object-fit:cover;
+    box-shadow: 0px 0px 15px gray;
 }
 
 .imgCarte{
@@ -213,7 +268,43 @@
 .btmAcheter{
     border: solid 3px rgb(126, 109, 11);
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 15px;
     color: rgb(167, 144, 11);
+    display: inline-block;
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
+/* Section Benefice */
+
+.carteBene{
+    background-color: white;
+    border-radius: 15px;    
+    padding: 6px;
+    width: 20%;
+    object-fit:cover;
+    box-shadow: 0px 0px 15px gray;
+}
+
+/* Section Avis Client */
+
+.carteAvisClient{
+    background-color: white;
+    border-radius: 15px;    
+    padding: 12px;
+    width: 30%;
+    object-fit:cover;
+    box-shadow: 0px 0px 15px gray;
+}
+.note{
+    color:rgb(126, 109, 11);
+    font-size: 18px;
+}
+.type{
+    font-size: 14px;
+    color: #666;
+}
+.commentaire{
+    margin-top: 16px;
+
 }

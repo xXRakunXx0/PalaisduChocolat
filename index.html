@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palais du Chocolat</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header flex alignCenter spaceBetween">
         <img src="asset/logo-chocolat-2.png" alt="" class="w5 marginLeft">
         <nav>
             <ul class="flex gap12 marginRight">
-                <li><a href="">Acceuil</a></li>
-                <li><a href="#Produits">Produit</a></li>
-                <li><a href="">Nos bénefices</a></li>
-                <li><a href="">Nos clients</a></li>
+                <li><a href="#Acceuil" class="coleurHeader">Acceuil</a></li>
+                <li><a href="#Produits" class="coleurHeader">Produit</a></li>
+                <li><a href="#Benefice" class="coleurHeader">Nos bénefices</a></li>
+                <li><a href="#Client" class="coleurHeader">Nos clients</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
+    <!-- Accreuil -->
+    <main id="Acceuil">
         <section class="hero">
             <img src="" alt="">
             <div class="textCenter">
@@ -27,20 +29,102 @@
                 <a href="" class="btm BlurAndBgc top20 marginAuto">Découvrez nos article</a>
             </div>
         </section>
-
-        <section class="top60">
-            <H2 id="Produits">Nos Produits</H2>
-            <div>
-                <div class="carte flex top20">
-                    <img src="asset/boiteDeChocolat.jpg" alt="" class="w20 imgCarte">
-                    <div class="w20">
-                        <h3>Boite de Chocolat</h3>
-                        <p>Régaler vous avec cette boite de chocolat</p>
+        <!-- section Nos Produit -->
+        <section class="top60 BandeMarront">
+            <div class="container">
+                <h2 id="Produits" class="H2 marginLeft">Nos Produits</h2>
+            <div class="marginLeft">
+                <div class="carte top20">
+                    <div class="flex">
+                        <img src="asset/boiteDeChocolat.jpg" alt="" class="w40 imgCarte">
+                        <div class="w40 marginLeft">
+                            <h3>Boite de Chocolat</h3>
+                            <p class="top40 para1">Régaler vous avec cette boite de chocolat</p>
+                        </div>
                     </div>
-                    <div><a href="" class="btmAcheter">Acheter</a></div>
+                    <div class="TextRight">
+                        <a href="" class="btmAcheter">Acheter</a>
+                    </div>
                 </div>
             </div>
+            </div>
         </section>
+        <!-- Section Benefice -->
+        <section class="top60 container" id="Benefice">
+            <h2>Nos Benefice</h2>
+            <div class="flex gap28 top20">
+                 <div class="carteBene textCenter">
+                <div>
+                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
+                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
+                </div>
+            </div>
+
+             <div class="carteBene textCenter">
+                <div>
+                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
+                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
+                </div>
+            </div>
+
+             <div class="carteBene textCenter">
+                <div>
+                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
+                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
+                </div>
+            </div>
+
+             <div class="carteBene textCenter">
+                <div>
+                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
+                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
+                </div>
+            </div>
+            </div>
+           
+        </section>
+
+        <!-- Section Avis Client -->
+         <section class="top60" id="Client">
+            <div class="container">
+               <h2>Avis Client</h2>
+            <div class="flex gap28">
+                <div class="carteAvisClient top20">
+                    <div class="flex alignCenter">
+                        <img src="asset/user-removebg-preview.png" alt="" class="w20">
+                        <p class="">Antoine</p>   
+                    </div>
+                    <p class="note">★★★★✩</p>
+                    <p class="type">typePrestation</p>
+                    <p class="commentaire">Commentaire</p>
+                </div> 
+
+                <div class="carteAvisClient top20">
+                    <div class="flex alignCenter">
+                        <img src="asset/user-removebg-preview.png" alt="" class="w20">
+                        <p class="">Antoine</p>   
+                    </div>
+                    <p class="note">★★★★✩</p>
+                    <p class="type">typePrestation</p>
+                    <p class="commentaire">Commentaire</p>
+                </div> 
+
+                <div class="carteAvisClient top20">
+                    <div class="flex alignCenter">
+                        <img src="asset/user-removebg-preview.png" alt="" class="w20">
+                        <p class="">Antoine</p>   
+                    </div>
+                    <p class="note">★★★★✩</p>
+                    <p class="type">typePrestation</p>
+                    <p class="commentaire">Commentaire</p>
+                </div> 
+            </div>
+            </div>
+         </section>
+
+         <footer>
+            
+         </footer>
 
 
 
@@ -67,4 +151,5 @@
 
     <script src="app.js" defer></script>
 </body>
+
 </html>
