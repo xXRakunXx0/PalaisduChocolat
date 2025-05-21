@@ -308,3 +308,9 @@ body{
     margin-top: 16px;
 
 }
+
+/* Footer */
+.box{
+    width: 31%;
+    display: inline-block;
+}

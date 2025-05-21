@@ -12,32 +12,32 @@
     {
       "titre": "Praliné croustillant",
       "presentation": "Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable délice pour les amateurs de chocolat et de fruits secs.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/praline-croustillant.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/praline-croustillant.webp"
     },
     {
       "titre": "Truffe au champagne",
       "presentation": "Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une saveur subtile et délicate, idéale pour les fêtes et les célébrations.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/truffe-champagne.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/truffe-champagne.webp"
     },
     {
       "titre": "Tablette de chocolat noir 70%",
       "presentation": "Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs. Un grand classique de la chocolaterie, à déguster seul ou à utiliser en cuisine.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/tablette-chocolat-noir.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/tablette-chocolat-noir.webp"
     },
     {
       "titre": "Coffret de chocolats assortis",
       "presentation": "Un assortiment de chocolats fins, sélectionnés avec soin par nos chocolatiers. Un cadeau gourmand et raffiné, qui fera plaisir à coup sûr.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/coffret-chocolats-assortis.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/coffret-chocolats-assortis.webp"
     },
     {
       "titre": "Chocolat chaud",
       "presentation": "Un chocolat chaud onctueux et réconfortant, à déguster en toute occasion.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/chocolat-chaud.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/chocolat-chaud.webp"
     },
     {
       "titre": "Mendiants",
       "presentation": "Des chocolats aux fruits secs et fruits confits, pour une explosion de saveurs en bouche.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/mendiants.webp"
+      "imageurl": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/mendiants.webp"
     }
   ],
   "clients": [
