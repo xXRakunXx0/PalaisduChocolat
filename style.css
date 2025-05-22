@@ -204,7 +204,7 @@ body{
  }
 
  h3{
-    color: rgba(90, 8, 122, 0.726);
+    color: rgba(82, 59, 33);
     font-family: "Playwrite DK Loopet", cursive;
     font-size: 20px;
  }
@@ -226,7 +226,7 @@ body{
  }
 
  .coleurHeader{
-    color: rgb(90, 8, 122, 0.726);
+    color: rgb(105, 86, 65);
  }
 
 /* Section Acceuil */
@@ -243,7 +243,7 @@ body{
     width: 30%;
     padding: 10px;
     border-radius: 40px;
-    color: rgb(139, 29, 153);
+    color: rgb(82, 59, 33);
     font-size: 20px;
     display: block;
     font-family: "Playwrite DK Loopet", cursive;
@@ -274,7 +274,7 @@ body{
     padding: 10px;
     font-size: 15px;
     border-radius: 30px;
-    color: rgb(139, 29, 153);
+    color: rgb(82, 59, 33);
     display: inline-block;
     font-family: "Playwrite DK Loopet", cursive;
 }
