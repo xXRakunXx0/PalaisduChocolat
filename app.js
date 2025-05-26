@@ -27,7 +27,7 @@ function AfficherLeNEntreprise(donnee) {
                 </p>
                 <li><a href="#Acceuil" class="coleurHeader">Acceuil</a></li>
                 <li><a href="#Produits" class="coleurHeader">Produit</a></li>
-                <img src="asset/logo-chocolat-2.png" alt="" class="w15">
+                <img src="asset/logo-chocolat-2.png" alt="" class="w15 logoColor">
                 <li><a href="#Benefice" class="coleurHeader">Nos bénefices</a></li>
                 <li><a href="#Client" class="coleurHeader">Nos clients</a></li>
             </ul>
@@ -56,7 +56,7 @@ function AfficherLeSlogan(donnee) {
 function AfficherLesProduit(tableauDeProduit) {
   tableauDeProduit.forEach((produit) => {
     document.getElementById("CarteProduit").innerHTML += `
-                  <div class="carte top20" data-aos="flip-left">
+                  <div class="carte top20" data-aos="flip-right" data-aos-duration="2000">
                     <div class="">
                         <img src="${produit.imageurl}" alt="" class="w100 imgCarte">
                         <div class="marginLeft">
@@ -79,9 +79,9 @@ function AfficherBene(tableauBenefice) {
     document.getElementById("CarteBene").innerHTML += `
     
     
-                <div class="carteBene textCenter">
+                <div class="carteBene textCenter" data-aos="fade-up" data-aos-duration="3000">
                     <div>
-                        <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w100"> 
+                        <img src="${bene.urlImg}" alt="" class="w100"> 
                         <p class=" marginAuto para2">${bene.txt}</p>
                     </div>
                 </div>
@@ -125,13 +125,13 @@ function AfficherAvisClient(tableauAvisClient) {
 
     document.getElementById("AvisClient").innerHTML += `
     
-                      <div class="carteAvisClient top20">
+                      <div class="carteAvisClient top20" data-aos="flip-down" data-aos-duration="2000">
                         <div class="flex alignCenter">
                             <img src="${avis.imgProfil}" alt="" class="w20">
-                            <p class="">${avis.nom}</p>
+                            <p class="marginLeft">${avis.nom}</p>
                         </div>
                         <p class="note">${note}</p>
-                        <p class="type">${avis.typePrestation}</p>
+                        <p class="type top10">${avis.typePrestation}</p>
                         <p class="commentaire">${avis.commentaire}</p>
                     </div>
                 </div>
@@ -144,3 +144,4 @@ function AfficherAvisClient(tableauAvisClient) {
 
 // Animation
 
+AOS.init();

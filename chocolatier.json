@@ -4,19 +4,19 @@
   "bouton": "Devis gratuit",
   "listeBeneficesClients": [
     {
-      "urlImg":"",
+      "urlImg":"https://www.chocolaterie-thil.com/img/cms/artisan%20chocolatier.png",
       "txt":"Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin"
     },
     {
-      "urlImg":"",
+      "urlImg":"https://img.freepik.com/photos-premium/tas-chocolats-lettre-e-dessus_880935-46.jpg",
       "txt":"Des saveurs uniques et originales, pour des sensations gustatives incomparables"
     },
     {
-      "urlImg":"",
+      "urlImg":"https://i.etsystatic.com/20492722/r/il/f7218a/4689660133/il_570xN.4689660133_p19f.jpg",
       "txt":"Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands inoubliables"
     },
     {
-      "urlImg":"",
+      "urlImg":"https://www.atelierduchocolat.fr/3500-zoom_default/plaque-en-chocolat-praline-naissance-personnalisable.jpg",
       "txt":"Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies"
     }
   ],

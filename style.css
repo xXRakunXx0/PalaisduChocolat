@@ -91,6 +91,10 @@ body{
     margin-top: 10px;
 }
 
+.top10{
+    margin-top: 10px;
+}
+
 .top20 {
     margin-top: 20px;
 }
@@ -221,16 +225,24 @@ body{
  /* Header */
 
  .header{
-    background-color:  rgba(211, 184, 168, 0.479);
-    padding: 16px;
+    background-color:  rgba(105, 77, 44, 0.804);
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 3;
  }
 
  .paraHeader{
-    color: rgb(105, 86, 65);
+    color: white;
+ }
+
+ .logoColor{
+    filter:brightness(5) grayscale(1)
  }
 
  .coleurHeader{
-    color: rgb(105, 86, 65);
+    color: white;
  }
 
 /* Section Acceuil */
