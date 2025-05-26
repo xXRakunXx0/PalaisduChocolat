@@ -4,19 +4,19 @@
   "bouton": "Devis gratuit",
   "listeBeneficesClients": [
     {
-      "urlImg":"https://www.chocolaterie-thil.com/img/cms/artisan%20chocolatier.png",
+      "urlImg":"https://www.monjardinchocolate.com/wp-content/uploads/2019/03/shoootin-photo-3.jpg",
       "txt":"Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin"
     },
     {
-      "urlImg":"https://img.freepik.com/photos-premium/tas-chocolats-lettre-e-dessus_880935-46.jpg",
+      "urlImg":"https://images.pexels.com/photos/10175400/pexels-photo-10175400.jpeg",
       "txt":"Des saveurs uniques et originales, pour des sensations gustatives incomparables"
     },
     {
-      "urlImg":"https://i.etsystatic.com/20492722/r/il/f7218a/4689660133/il_570xN.4689660133_p19f.jpg",
+      "urlImg":"https://images.pexels.com/photos/28769885/pexels-photo-28769885/free-photo-of-coffret-cadeau-festif-avec-assortiment-de-bonbons-et-de-biscuits.jpeg?auto=compress&cs=tinysrgb&w=1200",
       "txt":"Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands inoubliables"
     },
     {
-      "urlImg":"https://www.atelierduchocolat.fr/3500-zoom_default/plaque-en-chocolat-praline-naissance-personnalisable.jpg",
+      "urlImg":"https://images.pexels.com/photos/6969946/pexels-photo-6969946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "txt":"Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies"
     }
   ],

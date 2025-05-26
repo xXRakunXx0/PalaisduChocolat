@@ -58,7 +58,7 @@ function AfficherLesProduit(tableauDeProduit) {
     document.getElementById("CarteProduit").innerHTML += `
                   <div class="carte top20" data-aos="flip-right" data-aos-duration="2000">
                     <div class="">
-                        <img src="${produit.imageurl}" alt="" class="w100 imgCarte">
+                        <img src="${produit.imageurl}" alt="" class="w100 imgCarte ">
                         <div class="marginLeft">
                             <h3>${produit.titre}</h3>
                             <p class="top40 para1">${produit.presentation}</p>
@@ -79,10 +79,10 @@ function AfficherBene(tableauBenefice) {
     document.getElementById("CarteBene").innerHTML += `
     
     
-                <div class="carteBene textCenter" data-aos="fade-up" data-aos-duration="3000">
+                <div class="carteBene textCenter container" data-aos="flip-up"  data-aos-duration="2000">
                     <div>
-                        <img src="${bene.urlImg}" alt="" class="w100"> 
-                        <p class=" marginAuto para2">${bene.txt}</p>
+                        <img src="${bene.urlImg}" alt="" class="w80 imgBene"> 
+                        <p class=" marginAuto para2 top10">${bene.txt}</p>
                     </div>
                 </div>
             
