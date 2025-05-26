@@ -3,10 +3,22 @@
   "slogan": "Le chocolat qui éveille vos papilles",
   "bouton": "Devis gratuit",
   "listeBeneficesClients": [
-    "Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin",
-    "Des saveurs uniques et originales, pour des sensations gustatives incomparables",
-    "Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands inoubliables",
-    "Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies"
+    {
+      "urlImg":"",
+      "txt":"Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin"
+    },
+    {
+      "urlImg":"",
+      "txt":"Des saveurs uniques et originales, pour des sensations gustatives incomparables"
+    },
+    {
+      "urlImg":"",
+      "txt":"Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands inoubliables"
+    },
+    {
+      "urlImg":"",
+      "txt":"Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies"
+    }
   ],
   "produits": [
     {

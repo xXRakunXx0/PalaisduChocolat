@@ -8,33 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
+<body>
     <header class="header flex">
-          <nav class="container">
-            <ul class="flex textCenter spaceBetween alignCenter">
+        <nav class="container">
+            <div id="Header"></div>
+            <!--  <ul class="flex textCenter spaceBetween alignCenter">
+                <p>
+                    nomEntreprise
+                </p>
                 <li><a href="#Acceuil" class="coleurHeader">Acceuil</a></li>
                 <li><a href="#Produits" class="coleurHeader">Produit</a></li>
                 <img src="asset/logo-chocolat-2.png" alt="" class="w15">
                 <li><a href="#Benefice" class="coleurHeader">Nos bénefices</a></li>
                 <li><a href="#Client" class="coleurHeader">Nos clients</a></li>
-            </ul>
+            </ul>-->
         </nav>
     </header>
     <!-- Accreuil -->
     <main id="Acceuil">
-        <section class="hero">
+        <div id="containerCarte"></div>
+        <!--  <section class="hero">
             <img src="" alt="">
             <div class="textCenter">
                 <h1>Slogan</h1>
                 <a href="" class="btm BlurAndBgc top20 marginAuto">Découvrez nos article</a>
             </div>
-        </section>
+        </section>-->
         <!-- section Nos Produit -->
         <section class="top60 BandeMarront">
             <div class="container">
                 <h2 id="Produits" class="H2 marginLeft">Nos Produits</h2>
-            <div class="marginLeft flex gap28">
-                <div class="carte top20">
+                <div class="marginLeft flex gap28">
+                    <div id="CarteProduit"></div>
+                    <!--  <div class="carte top20">
                     <div class="flex">
                         <img src="asset/boiteDeChocolat.jpg" alt="" class="w40 imgCarte">
                         <div class="w40 marginLeft">
@@ -44,33 +50,7 @@
                     </div>
                     <div class="TextRight">
                         <a href="" class="btmAcheter">Acheter</a>
-                    </div>
-                </div>
-
-                <div class="carte top20">
-                    <div class="flex">
-                        <img src="asset/boiteDeChocolat.jpg" alt="" class="w40 imgCarte">
-                        <div class="w40 marginLeft">
-                            <h3>Boite de Chocolat</h3>
-                            <p class="top40 para1">Régaler vous avec cette boite de chocolat</p>
-                        </div>
-                    </div>
-                    <div class="TextRight">
-                        <a href="" class="btmAcheter">Acheter</a>
-                    </div>
-                </div>
-
-                <div class="carte top20">
-                    <div class="flex">
-                        <img src="asset/boiteDeChocolat.jpg" alt="" class="w40 imgCarte">
-                        <div class="w40 marginLeft">
-                            <h3>Boite de Chocolat</h3>
-                            <p class="top40 para1">Régaler vous avec cette boite de chocolat</p>
-                        </div>
-                    </div>
-                    <div class="TextRight">
-                        <a href="" class="btmAcheter">Acheter</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             </div>
@@ -78,93 +58,55 @@
         <!-- Section Benefice -->
         <section class="top60 container" id="Benefice">
             <h2>Nos Benefices</h2>
-            <div class="flex gap28 top20">
-                 <div class="carteBene textCenter">
-                <div>
-                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
-                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
+            <div id="CarteBene"></div>
+            <!-- <div class="flex gap28 top20">
+                <div class="carteBene textCenter">
+                    <div>
+                        <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
+                        <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
+                    </div>
                 </div>
-            </div>
+            </div> -->
 
-             <div class="carteBene textCenter">
-                <div>
-                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
-                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
-                </div>
-            </div>
-
-             <div class="carteBene textCenter">
-                <div>
-                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
-                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
-                </div>
-            </div>
-
-             <div class="carteBene textCenter">
-                <div>
-                    <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
-                    <p class="w40 marginAuto para2">Je vous Garantie le meilleur chocolat</p>
-                </div>
-            </div>
-            </div>
-           
         </section>
 
         <!-- Section Avis Client -->
-         <section class="top60" id="Client">
+        <section class="top60" id="Client">
             <div class="container">
-               <h2>Avis Clients</h2>
-            <div class="flex gap28">
-                <div class="carteAvisClient top20">
-                    <div class="flex alignCenter">
-                        <img src="asset/user-removebg-preview.png" alt="" class="w20">
-                        <p class="">Antoine</p>   
+                <h2>Avis Clients</h2>
+                <div id="AvisClient"></div>
+                <!-- <div class="flex gap28">
+                      <div class="carteAvisClient top20">
+                        <div class="flex alignCenter">
+                            <img src="asset/user-removebg-preview.png" alt="" class="w20">
+                            <p class="">Antoine</p>
+                        </div>
+                        <p class="note">★★★★✩</p>
+                        <p class="type">typePrestation</p>
+                        <p class="commentaire">Commentaire</p>
                     </div>
-                    <p class="note">★★★★✩</p>
-                    <p class="type">typePrestation</p>
-                    <p class="commentaire">Commentaire</p>
-                </div> 
-
-                <div class="carteAvisClient top20">
-                    <div class="flex alignCenter">
-                        <img src="asset/user-removebg-preview.png" alt="" class="w20">
-                        <p class="">Antoine</p>   
-                    </div>
-                    <p class="note">★★★★✩</p>
-                    <p class="type">typePrestation</p>
-                    <p class="commentaire">Commentaire</p>
-                </div> 
-
-                <div class="carteAvisClient top20">
-                    <div class="flex alignCenter">
-                        <img src="asset/user-removebg-preview.png" alt="" class="w20">
-                        <p class="">Antoine</p>   
-                    </div>
-                    <p class="note">★★★★✩</p>
-                    <p class="type">typePrestation</p>
-                    <p class="commentaire">Commentaire</p>
-                </div> 
+                </div> -->
             </div>
+        </section>
+
+        <footer class="container top100">
+
+            <div class="textCenter">
+                <h3>Contact</h3>
+                <p class="top20">65 rue Strawberry Avenue 46142 los santos</p>
+                <a href="">contact@PalaisduChocolat.com</a>
+                <p>555-8426</p>
             </div>
-         </section>
-
-         <footer class="container top100">
-
-                <div class="textCenter">
-                    <h3>Contact</h3>
-                    <p class="top20">65 rue Strawberry Avenue 46142 los santos</p>
-                    <a href="">contact@PalaisduChocolat.com</a>
-                    <p>555-8426</p>
-                </div>
             </div>
             <hr>
-            <p class="textCenter top20">Copyright © Palais du Chocolat | Designed by Victorflow Templates - Powered by Webflow</p>
+            <p class="textCenter top20">Copyright © Palais du Chocolat | Designed by Victorflow Templates - Powered by
+                Webflow</p>
         </footer>
     </main>
 
     </main>
 
-    <script src="app.js" defer></script>
+    <script src="./app.js" defer></script>
 </body>
 
 </html>
