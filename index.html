@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palais du Chocolat</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +29,6 @@
     <main id="Acceuil">
         <div id="containerCarte"></div>
         <!--  <section class="hero">
-            <img src="" alt="">
             <div class="textCenter">
                 <h1>Slogan</h1>
                 <a href="" class="btm BlurAndBgc top20 marginAuto">Découvrez nos article</a>
@@ -38,8 +38,8 @@
         <section class="top60 BandeMarront">
             <div class="container">
                 <h2 id="Produits" class="H2 marginLeft">Nos Produits</h2>
-                <div class="marginLeft flex gap28">
-                    <div id="CarteProduit"></div>
+                <div class="marginLeft flex gap28" id="CarteProduit">
+
                     <!--  <div class="carte top20">
                     <div class="flex">
                         <img src="asset/boiteDeChocolat.jpg" alt="" class="w40 imgCarte">
@@ -58,8 +58,8 @@
         <!-- Section Benefice -->
         <section class="top60 container" id="Benefice">
             <h2>Nos Benefices</h2>
-            <div id="CarteBene"></div>
-            <!-- <div class="flex gap28 top20">
+            <div id="CarteBene" class="flex gap28 top20"></div>
+            <!--<div class="flex gap28 top20">
                 <div class="carteBene textCenter">
                     <div>
                         <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
@@ -74,9 +74,8 @@
         <section class="top60" id="Client">
             <div class="container">
                 <h2>Avis Clients</h2>
-                <div id="AvisClient"></div>
-                <!-- <div class="flex gap28">
-                      <div class="carteAvisClient top20">
+                <div id="AvisClient" class="flex gap28"></div>
+                <!-- <div class="carteAvisClient top20">
                         <div class="flex alignCenter">
                             <img src="asset/user-removebg-preview.png" alt="" class="w20">
                             <p class="">Antoine</p>
@@ -106,6 +105,7 @@
 
     </main>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="./app.js" defer></script>
 </body>
 

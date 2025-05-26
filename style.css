@@ -225,6 +225,10 @@ body{
     padding: 16px;
  }
 
+ .paraHeader{
+    color: rgb(105, 86, 65);
+ }
+
  .coleurHeader{
     color: rgb(105, 86, 65);
  }

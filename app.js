@@ -1,3 +1,5 @@
+
+
 fetch("chocolatier.json")
   .then((response) => response.json())
   .then((data) => {
@@ -20,7 +22,7 @@ function AfficherLeNEntreprise(donnee) {
   document.getElementById("Header").innerHTML += `
     
      <ul class="flex textCenter spaceBetween alignCenter" id="Header">
-                <p>
+                <p class="paraHeader">
                     ${donnee.nomEntreprise}
                 </p>
                 <li><a href="#Acceuil" class="coleurHeader">Acceuil</a></li>
@@ -40,7 +42,6 @@ function AfficherLeSlogan(donnee) {
   document.getElementById("containerCarte").innerHTML += `
     
      <section class="hero">
-            <img src="" alt="">
             <div class="textCenter">
                 <h1>${donnee.slogan}</h1>
                 <a href="" class="btm BlurAndBgc top20 marginAuto">${donnee.bouton}</a>
@@ -55,10 +56,10 @@ function AfficherLeSlogan(donnee) {
 function AfficherLesProduit(tableauDeProduit) {
   tableauDeProduit.forEach((produit) => {
     document.getElementById("CarteProduit").innerHTML += `
-                  <div class="carte top20">
-                    <div class="flex">
-                        <img src="${produit.imageurl}" alt="" class="w40 imgCarte">
-                        <div class="w40 marginLeft">
+                  <div class="carte top20" data-aos="flip-left">
+                    <div class="">
+                        <img src="${produit.imageurl}" alt="" class="w100 imgCarte">
+                        <div class="marginLeft">
                             <h3>${produit.titre}</h3>
                             <p class="top40 para1">${produit.presentation}</p>
                         </div>
@@ -77,14 +78,14 @@ function AfficherBene(tableauBenefice) {
   tableauBenefice.forEach((bene) => {
     document.getElementById("CarteBene").innerHTML += `
     
-    <div class="flex gap28 top20">
+    
                 <div class="carteBene textCenter">
                     <div>
-                        <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w40">
-                        <p class="w40 marginAuto para2">${bene.txt}</p>
+                        <img src="asset/tablette-de-chocolat-au-lait-removebg-preview.png" alt="" class="w100"> 
+                        <p class=" marginAuto para2">${bene.txt}</p>
                     </div>
                 </div>
-            </div>
+            
     `;
   });
 }
@@ -124,7 +125,6 @@ function AfficherAvisClient(tableauAvisClient) {
 
     document.getElementById("AvisClient").innerHTML += `
     
-    <div class="flex gap28">
                       <div class="carteAvisClient top20">
                         <div class="flex alignCenter">
                             <img src="${avis.imgProfil}" alt="" class="w20">
@@ -139,3 +139,8 @@ function AfficherAvisClient(tableauAvisClient) {
     `;
   });
 }
+
+
+
+// Animation
+
