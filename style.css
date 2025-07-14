@@ -201,6 +201,7 @@ body{
  h1{
     color: white;
     font-size: 100px;
+    text-shadow: 3px 3px rgb(198, 125, 207);
  }
 
  h2{
@@ -248,22 +249,24 @@ body{
 
 /* Section Acceuil */
 .hero{
-    background-image: url(asset/chocola.jpg);
+    background-image: url(asset/Hero3.jpeg);
      height: 87vh;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
+    object-fit: none;
 }
 
 .btm{
     background-color: rgb(198, 125, 207);
-    width: 30%;
-    padding: 10px;
+    width: fit-content;
+    padding: 15px 25px;
     border-radius: 40px;
-    color: rgb(82, 59, 33);
-    font-size: 20px;
+    color: black;
+    font-size: 35px;
     display: block;
     font-family: "Playwrite DK Loopet", cursive;
+     
 }
 
 /* Section Nos Produits */

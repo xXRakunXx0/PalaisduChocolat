@@ -42,9 +42,9 @@ function AfficherLeSlogan(donnee) {
   document.getElementById("containerCarte").innerHTML += `
     
      <section class="hero">
-            <div class="textCenter">
+            <div class="textCenter top100">
                 <h1>${donnee.slogan}</h1>
-                <a href="" class="btm BlurAndBgc top20 marginAuto">${donnee.bouton}</a>
+                <a href="" class="btm BlurAndBgc top100 marginAuto">${donnee.bouton}</a>
             </div>
         </section>
     
